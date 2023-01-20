@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!--Scroll Animation  -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<!-- Scroll Animation -->
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<!-- FontAwesome -->
+
+   <!-- Link Swiper's CSS -->
+   <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+ />
+
+ <!--Splide-->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/themes/splide-sea-green.min.css">
+ <link
+ rel="stylesheet"
+ href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/themes/splide-default.min.css"
+/>
+<!--Splide-->
+
+  <!--IMPORTED FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <!---->
+
+  <link rel="stylesheet" href="index.css" />
+  <script src="Gym.js"></script>
+  <title>Glint</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <section class="first-Page">
+      <nav>
+        <!--START NAV-->
+        <img src="data:image/webp;base64,UklGRnYDAABXRUJQVlA4TGkDAAAv7UATEPdAmG1Uf6DTu+cUBAJJXPt7LRBI8tufZ4EAYcF/pAQJ/qNYAQO0BIBpYlsJPdJO79f97/MpiQzg+4zo/wTA/9RbsDbEuxQ1Hpp8iwKeq+0Gbdiq8u2pqgntwiQK1mpERGsdxXwRIbOFkJnWJJNFvnJUHsFwwoIU0ihuqHaHXLscxePFPi1BYj5Q8dihTV0ZThgFMh+HFPbpSkeBE1cia+xWUT+FoWEhCLs2pRcIbXEdqsPOVewFTIuHZagG+6deIJwogmXIGh/R9wIlGEQTCixDNfiYqZcRP1g1+JAqwaIZlLZEKaVIzoioDIsWUNZHaC2bZekMi7ahaKjALr7NVFi0qiRsAdFiG0yFVXMoSCBO6shXGFcmZzWiso7yiBLyVYYLs/mPB/4FhMwWZNJR8QqbNVUWXp4u0zyV4dJqEAOMqjgUDHUsG7JVhour2WBUpFBUp6FoXoTHHIJH8W0gEdkBpuXxQhqHYxmYlsdLt1FUZKdpGbw4D2JjWZjW5WYQjpWWBWkMimNgXdQQMnJpYXAbwcYq89OeUopkJMyRPebY1nwJcTTMziQ4LZaH9eCUA71ajpegi9NgAjQTL46HJPBiGssGTGKFAShOnBsB23DsAJCbpqaBnzjmXmwCYBh4L0CSbowVScOxHJqZF6mjCzMLIjAczzEzoykQB+vNSax4c4DlBPiLZzlYbg6x/M0pLFXuDRgOupuzsXC7N6BZKt8bYqGut6ZqFpp6Z2Djocl34uX1mQGWhyrKpcV6/9n3ff/7fG4qiofoqkz1uChZ6OVvP/9ogU0CFVVeIYWrQjJv//bWrxbwEojKx6a6OZRcBlUlXv7t7R8t1YggorK0pZQieYPCEzMMNPWguNrwuzP/PTdANUIdTsxxUIWUyCHS2dvO/mqBrFaLWOfm7Jv3rwmyeggP88piWE7+ePtzE1TzAAQTAy0WTnbB1zaotjcVYWokprsBoL5shblVLYXx6EcA+Fn3owi484Eo5o8+eb8CUKkXV2B+4KWwHjzz3iUAiu/BJhCcEXipdABfnD+QLv4qn0B0SuBFdIbjp1/GixhAIS1nqIDwnCAqlqIK5y+/Te9wbSYroBwVkJ8UVNJNmio0P32d/b1Ah4mCteo/1jqKGRY1kzWIaB1l4D9//uz73/c73HMA" alt="Homepage" >
+
+        <div class="top-right" onclick="openNav()" >
+          <label for="menu" >MENU </label>
+          <i class="fa-solid fa-bars"  id="menu"></i>        
+        </div>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="#home" >Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#Our Works">Our Works</a>
+          <a href="#clients">clients</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+      <!--END NAV-->
+      <main id="home">
+        <div id="div_under_main">
+          <h5 class="top-left"  data-aos="fade-up"
+          data-aos-duration="3000">WELCOME TO GLINT</h5>
+          <h1  data-aos="fade-up"
+          data-aos-duration="3000">
+            We are a creative group of people who design influential brands
+            and digital experiences.
+          </h1>
+          <button id="sec_btn" class="btn" data-aos="fade-up"
+          data-aos-duration="3000">START A PROJECT</button>
+          <button id="firs_btn" class="btn" data-aos="fade-up"
+          data-aos-duration="3000">MORE ABOUT US</button>
+        </div>
+        <!--div_under_main-->
+        <div id="second_div_under_main" >
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <!--second_div_under_main-->
+      </main>
+      <!--END OF MAIN-->
+    </section>
+    <!--END OF first-Page-->
+
+    <section id="second_page"> 
+      <div class="first_div_second_page" id="about">
+        <h5 data-aos="fade-up"
+        data-aos-duration="3000">HELLO THERE</h5>
+        <h1 data-aos="fade-up"
+        data-aos-duration="3000">We Are Glint</h1>
+        <hr />
+        <p data-aos="fade-up"
+        data-aos-duration="3000">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
+        </p>
+      </div>
+      <!--first_div_second_page-->
+      <div id="second_div_second_page" data-aos="fade-up"
+      data-aos-duration="1000">
+        <div id="first_item" class="items">
+          <ul>
+            <li class="numbers">117</li>
+            <li class="text">Awards Received</li>
+          </ul>
+          <ul>
+            <li class="numbers">1504</li>
+            <li class="text">Cups of Coffee</li>
+          </ul>
+        </div>
+        <div id="second_item" class="items">
+          <ul>
+            <li class="numbers">132</li>
+            <li class="text">Projects Completed</li>
+          </ul>
+          <ul>
+            <li class="numbers">109</li>
+            <li class="text">Happy Clients</li>
+          </ul>
+        </div>
+      </div>
+      <!--End of second_div_second_page-->
+    </section>
+    <!--END OF SECOND PAGE-->
+
+    <section class="third_page" id="services">
+
+      <div id="div1_Page3" data-aos="fade-up"
+      data-aos-duration="3000">
+        <h5>WHAT WE DO</h5>
+        <h1>
+          We’ve got everything you need to launch and grow your business
+        </h1>
+        <hr />
+      </div>
+      <!--End of div1_Page3-->
+      <div class="div2_Page3">
+        <div class="products">
+          <div class="six_articles_of_page3"data-aos="fade-up"
+          data-aos-duration="1000">
+            <div class="content">
+              <div class="logos">
+                <img src="img/brush.png" alt="Brush" class="imgs" />
+                <h3>Brand Identity</h3>
+              </div>
+              <p>
+                Nemo cupiditate ab quibusdam quaerat impedit magni. Earum
+                suscipit ipsum laudantium. Quo delectus est. Maiores voluptas
+                ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              </p>
+            </div>
+          </div>
+          <div class="six_articles_of_page3" data-aos="fade-up"
+          data-aos-duration="3000">
+            <div class="content">
+              <div class="logos">
+                <img src="img/squar.png" alt="" class="imgs" />
+                <h3>Illustration</h3>
+              </div>
+              <p>
+                Nemo cupiditate ab quibusdam quaerat impedit magni. Earum
+                suscipit ipsum laudantium. Quo delectus est. Maiores voluptas
+                ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              </p>
+            </div>
+          </div>
+          <div class="six_articles_of_page3" data-aos="fade-up"
+          data-aos-duration="3000">
+            <div class="content">
+              <div class="logos">
+                <img src="img/speaker.png" alt="" class="imgs" />
+                <h3>Marketing</h3>
+              </div>
+              <p>
+                Nemo cupiditate ab quibusdam quaerat impedit magni. Earum
+                suscipit ipsum laudantium. Quo delectus est. Maiores voluptas
+                ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="products">
+          <div class="six_articles_of_page3" data-aos="fade-up"
+          data-aos-duration="3000">
+            <div class="content">
+              <div class="logos">
+                <img src="img/world.png" alt="" class="imgs" />
+                <h3>Web Design</h3>
+              </div>
+              <p>
+                Nemo cupiditate ab quibusdam quaerat impedit magni. Earum
+                suscipit ipsum laudantium. Quo delectus est. Maiores voluptas
+                ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              </p>
+            </div>
+          </div>
+          <div class="six_articles_of_page3" data-aos="fade-up"
+          data-aos-duration="3000">
+            <div class="content">
+              <div class="logos">
+                <img src="img/cube.png" alt="" class="imgs" />
+                <h3>Packaging Design</h3>
+              </div>
+              <p>
+                Nemo cupiditate ab quibusdam quaerat impedit magni. Earum
+                suscipit ipsum laudantium. Quo delectus est. Maiores voluptas
+                ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              </p>
+            </div>
+          </div>
+          <div class="six_articles_of_page3" data-aos="fade-up"
+          data-aos-duration="3000">
+            <div class="content">
+              <div class="logos">
+                <img src="img/shantu.png" alt="" class="imgs" />
+                <h3>Web Development</h3>
+              </div>
+              <p>
+                Nemo cupiditate ab quibusdam quaerat impedit magni. Earum
+                suscipit ipsum laudantium. Quo delectus est. Maiores voluptas
+                ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <!--End of six_articles_of_page3-->
+      </div>
+      <!--End of div2_Page3-->
+
+
+      <!--Start of Page4-->
+      <section id="page4">
+        <div class="div1_page4">
+          <div class="sub_div" data-aos="fade-up"
+          data-aos-duration="3000">
+            <h5>RECENT WORKS</h5>
+            <h1>We love what we do, check out some of our latest works</h1>
+            <hr>
+          </div>
+        </div>
+        <!--End of div2_page4-->
+
+        <div class="div2_page4" id="Our Works">
+          <div class="box1">
+            <img src="img/work2.webp" alt="" data-aos="fade-up"
+            data-aos-duration="3000">
+            <img src="img/work4.webp" alt="" data-aos="fade-up"
+            data-aos-duration="3000">
+            <img src="img/work1.webp" alt="" data-aos="fade-up"
+            data-aos-duration="3000">
+          </div>
+          <div class="box1">
+            <img src="img/work5.webp" alt="" data-aos="fade-up"
+            data-aos-duration="3000">
+            <img src="img/work6.webp" alt="" data-aos="fade-up"
+            data-aos-duration="3000">
+            <img src="img/work3.webp" alt="" data-aos="fade-up"
+            data-aos-duration="3000">
+          </div>
+        </div>
+        <!--End of div2_page4-->
+      </section>
+      <!--End of page4-->
+
+      <section id="page5">
+        <div class="div1_page5" data-aos="fade-up"
+        data-aos-duration="3000">
+          <h5>OUR CLIENTS</h5>
+          <h1>Glint has been honored to partner up with these clients</h1>
+        </div>
+        
+          <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track div2_page5">
+              <ul class="splide__list many_img" data-aos="fade-up"
+              data-aos-duration="3000">
+                <img class="splide__slide lgooos" src="img/logo1.webp" alt="" />
+                <img class="splide__slide lgooos" src="img/logo2.webp" alt="" />
+                <img class="splide__slide lgooos" src="img/logo3.webp" alt="" />
+                <img class="splide__slide lgooos" src="img/logo4.webp" alt="" />
+                <img class="splide__slide lgooos" src="img/logo5.webp" alt="" />
+                <img class="splide__slide lgooos" src="img/logo6.webp" alt="" />
+                <img class="splide__slide lgooos" src="img/logo7.webp" alt="" />
+                <img class="splide__slide lgooos" src="img/logo8.webp" alt="" />
+                <img class="splide__slide lgooos" src="img/logo1.webp" alt="" />
+                <img class="splide__slide lgooos" src="img/logo2.webp" alt="" />
+                <img class="splide__slide lgooos" src="img/logo3.webp" alt="" />
+                <img class="splide__slide lgooos" src="img/logo4.webp" alt="" />
+              </ul>
+            </div>
+          </section>
+          <hr id="line">
+      
+       
+      </div>
+        <!--End of div2_page5-->
+    </section>
+      <!--End of page5-->
+      <section id="page6" >
+
+      <div class="swiper mySwiper" data-aos="fade-up"
+      data-aos-duration="3000" id="clients">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide page6_div1">
+            <p>
+              Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam
+              accusantium ipsum. Laudantium quia consequatur molestias delectus
+              culpa facere hic dolores aperiam. Accusantium quos qui praesentium
+              corpori. Excepturi nam cupiditate culpa doloremque deleniti
+              repellat.
+            </p>
+            <img class="CEO_IMG" src="img/CEO1.webp" alt="" />
+            <h4>Tim Cook</h4>
+            <h5>CEO.APPLE</h5>
+          </div>
+          <!--END OF DIV1-->
+          <div class="swiper-slide page6_div1">
+            <p>
+              Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
+            </p>
+            <img class="CEO_IMG" src="img/CEO2.webp" alt="" />
+            <h4>Sundar Pichai</h4>
+            <h5>CEO.GOOGLE</h5>
+          </div>
+          <!--END OF DIV2-->
+          <div class="swiper-slide page6_div1">
+            <p>
+              Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci. Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.
+            </p>
+            <img class="CEO_IMG" src="img/CEO3.webp" alt="" />
+            <h4>Satya Nadella</h4>
+            <h5>CEO.MICROSOFT</h5>
+          </div>
+         <!--END OF DIV3-->
+        </div>
+        <!--End of swiper-wrapper-->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--End of Page6-->
+
+    <section id="page7">
+<div class="div1_page7" >
+  <div class="head_of_form" data-aos="fade-up"
+  data-aos-duration="3000">
+  <h4>CONTACT US</h4>
+  <h1>Reach out for a new project or just say hello</h1>
+</div>
+  <div class="form" data-aos="fade-up"
+  data-aos-duration="3000">
+    <form action="#" id="contact">
+  <h3>SEND US A MESSAGE</h3>
+  <input type="text" name="Name" id="Name" placeholder="Your Name" required>
+  <input type="email" name="email" id="email" placeholder="Your Email" required>
+  <input type="text" name="Subject" id="Subject" placeholder="Your Subject" >
+  <input type="text" name="Message" id="Message" placeholder="Your Message" required>
+  <button>SUBMIT</button>
+
+</form>
+<div class="info" >
+  <h3 class="first_h3" >CONTACT INFO</h3>
+  <div class="info1" >
+    <h3>Where to Find Us</h3>
+    <p>1600 Amphitheatre Parkway
+      Mountain View, CA
+      94043 US</p>
+</div>
+<div class="info2">
+  <h3>Email Us At</h3>
+  <p>1600 Amphitheatre Parkway
+    Mountain View, CA
+    94043 US</p>
+</div>
+<div class="info3">
+  <h3>Call Us At</h3>
+  <p>Phone: (+63) 555 1212
+    <br>
+    Mobile: (+63) 555 0100
+    <br>
+    Fax: (+63) 555 0100</p>
+  </div>
+  <div class="info_logo">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+    <i class="fa-brands fa-twitter"></i>
+  </div>
+</div>
+<!--End of info-->
+  </div>
+  <!--End of Form-->
+</div>
+    </section>
+    <!--End of page7-->
+<section id="page8">
+      <footer data-aos="fade-up"
+      data-aos-duration="3000">
+        <div class="footer_div1">
+          <img src="data:image/webp;base64,UklGRnYDAABXRUJQVlA4TGkDAAAv7UATEPdAmG1Uf6DTu+cUBAJJXPt7LRBI8tufZ4EAYcF/pAQJ/qNYAQO0BIBpYlsJPdJO79f97/MpiQzg+4zo/wTA/9RbsDbEuxQ1Hpp8iwKeq+0Gbdiq8u2pqgntwiQK1mpERGsdxXwRIbOFkJnWJJNFvnJUHsFwwoIU0ihuqHaHXLscxePFPi1BYj5Q8dihTV0ZThgFMh+HFPbpSkeBE1cia+xWUT+FoWEhCLs2pRcIbXEdqsPOVewFTIuHZagG+6deIJwogmXIGh/R9wIlGEQTCixDNfiYqZcRP1g1+JAqwaIZlLZEKaVIzoioDIsWUNZHaC2bZekMi7ahaKjALr7NVFi0qiRsAdFiG0yFVXMoSCBO6shXGFcmZzWiso7yiBLyVYYLs/mPB/4FhMwWZNJR8QqbNVUWXp4u0zyV4dJqEAOMqjgUDHUsG7JVhour2WBUpFBUp6FoXoTHHIJH8W0gEdkBpuXxQhqHYxmYlsdLt1FUZKdpGbw4D2JjWZjW5WYQjpWWBWkMimNgXdQQMnJpYXAbwcYq89OeUopkJMyRPebY1nwJcTTMziQ4LZaH9eCUA71ajpegi9NgAjQTL46HJPBiGssGTGKFAShOnBsB23DsAJCbpqaBnzjmXmwCYBh4L0CSbowVScOxHJqZF6mjCzMLIjAczzEzoykQB+vNSax4c4DlBPiLZzlYbg6x/M0pLFXuDRgOupuzsXC7N6BZKt8bYqGut6ZqFpp6Z2Djocl34uX1mQGWhyrKpcV6/9n3ff/7fG4qiofoqkz1uChZ6OVvP/9ogU0CFVVeIYWrQjJv//bWrxbwEojKx6a6OZRcBlUlXv7t7R8t1YggorK0pZQieYPCEzMMNPWguNrwuzP/PTdANUIdTsxxUIWUyCHS2dvO/mqBrFaLWOfm7Jv3rwmyeggP88piWE7+ePtzE1TzAAQTAy0WTnbB1zaotjcVYWokprsBoL5shblVLYXx6EcA+Fn3owi484Eo5o8+eb8CUKkXV2B+4KWwHjzz3iUAiu/BJhCcEXipdABfnD+QLv4qn0B0SuBFdIbjp1/GixhAIS1nqIDwnCAqlqIK5y+/Te9wbSYroBwVkJ8UVNJNmio0P32d/b1Ah4mCteo/1jqKGRY1kzWIaB1l4D9//uz73/c73HMA" alt="Homepage">
+
+          <p>Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.</p>
+        </div>
+        <div class="footer_div2">     
+          <h4>Get Notified</h4>
+          <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
+          <div class="form2">
+          <i class="fa-regular fa-envelope"></i>
+          <input type="email" placeholder="Email Address">
+          <button type="submit">SUBSCRIBE</button>
+        </div>
+        <div class="input-group">
+          <input type="email" class="input" id="Email" name="Email" placeholder="Enter your email" autocomplete="off">
+          <input class="button--submit" value="Subscribe" type="submit">
+      </div>
+      </div>
+      </footer>
+    </section>    
+    <!--End of page8-->
+    <div class="copyright">
+      <i class="fa-regular fa-copyright"></i>
+      <p>CopyRight Glint | Yousuf</p>
+          </div>
+  </div>
+  <!--END OF CONTAINER-->
+
+
+
+
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+
+   <!--Splide-->
+   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+   <script>
+     var splide = new Splide(".splide", {
+       type: "loop",
+       perPage: 5,
+       perMove: 2,
+       arrows:true,
+       wheel:true,
+       autoplay:true,
+       interval:3000
+     });
+
+     splide.mount();
+   </script>
+   <!--Splide-->
+
+<!--Scroll Animation  -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 100,
+    delay:2,
+    duration: 200,
+    once: true
+  });
+</script>
+<!--Scroll Animation  -->
+
+
+<script src="/index.js"></script>
+
+</body>
+
+</html>
